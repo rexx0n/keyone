@@ -1,0 +1,58 @@
+.main {
+  background: url("../imgs/window-business-building-architecture-view_1127-2807.png") no-repeat;
+  background-size: cover;
+  &__info {
+    margin-top: 68px;
+    text-align: center;
+    padding-bottom: 70px;
+    span {
+      color: #FFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    p {
+      max-width: 158px;
+      color: #FFF;
+      text-align: center;
+      margin: 9px auto auto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h1 {
+      color: #FFF;
+      text-align: center;
+      font-family: 'Futura PT', sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 106.7%; /* 42.68px */
+      margin-top: 32px;
+    }
+  }
+  &__address {
+    padding: 8px 23px;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(2.8px);
+    margin-top: 35px;
+    span {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__date {
+    padding: 8px 23px;
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(3.3944928646087646px);
+  }
+  button {
+    margin-top: 65px;
+  }
+}
