@@ -1,0 +1,49 @@
+.exhibition {
+  margin-top: 100px;
+  &__cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 57px;
+  }
+  iframe {
+    margin-top:35px;
+  }
+  &__carousel {
+    display: flex;
+    flex-direction: column;
+    margin-top:63px;
+  }
+  &__btns {
+    margin: 17px auto 0;
+  }
+  &__slider {
+    overflow: hidden;
+  }
+  &__line {
+    display: flex;
+    transform: translate(-314px);
+    transition: 0.5s;
+    img {
+      width: 312px;
+      max-height: 200px;
+    }
+  }
+  &__card {
+    border: 1px solid  #EB177E;
+    border-radius: 10px;
+    max-width: 310px;
+    padding: 22px;
+    p {
+      color: #282828;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 104.9%;
+      text-align: center;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+}

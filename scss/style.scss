@@ -4,6 +4,8 @@
 @import "header";
 @import "main";
 @import "button";
+@import 'time';
+@import 'exhibition';
 
 * {
   margin: 0;
@@ -11,4 +13,13 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+}
+h1 {
+  color: #282828;
+  text-align: center;
+  font-family: 'Futura PT', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.7%; /* 32.01px */
 }

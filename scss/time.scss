@@ -1,0 +1,32 @@
+.time {
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      hr {
+        background: linear-gradient(137deg, #EB177E 0%, #893EF9 103.66%);
+        height: 4px;
+        width:178px ;
+      }
+      p {
+        color: rgba(40, 40, 40, 0.58);
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+      }
+      span {
+        color: #282828;
+        font-family: 'Futura PT', sans-serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+}
