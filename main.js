@@ -36,12 +36,12 @@ init()
 btnLeft.addEventListener('click', ()=> {
     count--
     if (count <= 0) {
-        count = images.length - 1;
+        count = images.length ;
         console.log(images.length)
         translate = translate + 624;
         console.log(count)
     } else {
-        translate = translate + 314;
+        translate = translate + -314;
         console.log('asdas')
         console.log(`count ${count}`)
     }

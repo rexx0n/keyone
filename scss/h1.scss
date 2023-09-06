@@ -1,0 +1,21 @@
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Futura PT', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106.7%; /* 32.01px */
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  hr {
+    background: var(--1, linear-gradient(137deg, #EB177E 0%, #893EF9 103.66%));
+    height: 5px;
+    border: none;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 24px;
+  }
+}
