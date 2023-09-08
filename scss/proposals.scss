@@ -1,0 +1,37 @@
+.proposals {
+  margin-top: 100px;
+  h1 {
+    color: #282828;
+  }
+  &__card {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid  #EB177E;
+    background: #282828;
+    padding: 51px 0 53px;
+    button {
+      max-width: 239px;
+      font-size: 19px;
+      margin: -20px auto auto;
+    }
+    img {
+      margin-top: 29px;
+    }
+    h2 {
+      color: #FFF;
+      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      max-width: 218px;
+      font-size: 24px;
+      margin: auto;
+      line-height: 112.2%; /* 31.416px */
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+}
