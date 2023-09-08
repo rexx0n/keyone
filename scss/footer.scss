@@ -2,12 +2,20 @@
   margin-top: 100px;
   text-align: center;
   background: #EAEAEA;
+  padding-bottom: 50px;
   padding-top: 42px;
   &__info {
+    margin-top: 43px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 25px;
     span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      max-width: 230px;
       color: #282828;
       font-size: 14px;
       font-style: normal;
