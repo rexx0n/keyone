@@ -38,11 +38,10 @@ btnLeft.addEventListener('click', ()=> {
     if (count <= 0) {
         count = images.length ;
         console.log(images.length)
-        translate = translate + 624;
+        translate =  624;
         console.log(count)
     } else {
         translate = translate + -314;
-        console.log('asdas')
         console.log(`count ${count}`)
     }
     rollSlider()
@@ -50,8 +49,11 @@ btnLeft.addEventListener('click', ()=> {
 
 btnRight.addEventListener('click', ()=> {
     count++
-    if(count >= images.length) {
-        count = 0
+    if (count >= images.length) {
+        translate = 0;
+        count = 0;
+    } else {
+        translate = translate - -314;
     }
     rollSlider()
 })

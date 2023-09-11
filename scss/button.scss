@@ -9,12 +9,23 @@
   background: #EB177E;
   border: none;
   transition: 0.5s;
-  //&:hover {
-  //  background: #FFF;
-  //  color: #EB177E;;
-  //}
   &:active {
     color: #FFF;
     background: rgba(235, 23, 126, 0.51);
+  }
+}
+@media screen and (min-width: 600px) {
+  .button {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    &:hover {
+      background: #FFF;
+      color: #EB177E;;
+    }
   }
 }

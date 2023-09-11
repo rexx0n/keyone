@@ -1,5 +1,7 @@
 .time {
-  
+  > hr {
+    display: none;
+  }
     div {
       display: flex;
       flex-direction: column;
@@ -29,4 +31,31 @@
         line-height: normal;
       }
     }
+}
+@media screen and (min-width: 600px) {
+  .time {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > hr {
+      display: block;
+      border: none;
+      width: 2px;
+      height: 178px;
+      background: var(--1, linear-gradient(137deg, #EB177E 0%, #893EF9 103.66%));
+    }
+    div {
+      hr {
+        display: none;
+      }
+      &:last-child {
+        border: none;
+      }
+      p {
+        max-width: 307px;
+      }
+    }
+
+  }
 }
