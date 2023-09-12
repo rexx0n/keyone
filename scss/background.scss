@@ -1,3 +1,9 @@
 .background {
   background: url("imgs/rectangle47.png");
 }
+@media screen and (min-width: 600px) {
+  .background {
+    background: url("imgs/rectangle46.png") no-repeat;
+    background-size: cover;
+  }
+}

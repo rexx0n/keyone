@@ -19,3 +19,15 @@ h1 {
     top: 24px;
   }
 }
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 106.7%; /* 53.35px */
+    text-transform: uppercase;
+    hr {
+      top: 41px;
+      height: 7px;
+    }
+  }
+}

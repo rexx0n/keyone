@@ -34,3 +34,32 @@
     }
   }
 }
+@media screen and (min-width: 600px) {
+  .useful {
+    h1 {
+      max-width: 607px;
+      font-size: 50px;
+      line-height: 106.7%; /* 53.35px */
+      text-transform: uppercase;
+    }
+    &__cards {
+      margin-top: 94px;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    &__card {
+      span {
+        max-width: 265px;
+      }
+    }
+    &__icon {
+      padding: 23px;
+      max-width: 120px;
+      max-height: 120px;
+      img {
+        width: 74px;
+        height: 74px;
+      }
+    }
+  }
+}
