@@ -35,5 +35,30 @@
 @media screen and (min-width: 600px) {
   .partner {
     margin-top: 150px;
+    background: url("imgs/bg.png") no-repeat;
+    background-size: cover;
+    h1 {
+      max-width: 612px;
+    }
+    &__info {
+      padding-bottom: 124px;
+      p {
+        font-size: 24px;
+        padding-bottom: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114.4%; /* 27.456px */
+      }
+      h4 {
+        max-width: 600px;
+        margin: 105px auto 53px;
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 106.7%; /* 42.68px */
+      }
+    }
   }
 }

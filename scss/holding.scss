@@ -1,5 +1,9 @@
 .holding {
   margin-top: 100px;
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+  }
   h1 {
     color: #282828;
     font-size: 28px;
@@ -64,6 +68,62 @@
       font-style: normal;
       font-weight: 400;
       line-height: 114.4%; /* 16.016px */
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  .holding {
+    h1 {
+      color: #282828;
+      margin: auto;
+      font-size: 50px;
+      max-width: 562px;
+      font-weight: 600;
+      line-height: 106.7%; /* 53.35px */
+    }
+    &__time {
+      flex-direction: row;
+      justify-content: center;
+      gap: 24px;
+      span {
+        max-width: 313px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    &__inputs {
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 38px;
+      column-gap: 35px;
+      justify-content: center;
+      margin-bottom: 55px;
+    }
+    form {
+      max-width: 884px;
+      margin: 54px auto auto;
+      padding: 50px 73px 73px 73px;
+      button {
+        max-width: 391px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: auto;
+      }
+      input {
+        max-width: 343px;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+      span {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
     }
   }
 }
