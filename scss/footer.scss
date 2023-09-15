@@ -4,6 +4,9 @@
   background: #EAEAEA;
   padding-bottom: 50px;
   padding-top: 42px;
+  &__logo-computer {
+    display:none;
+  }
   &__info {
     margin-top: 43px;
     display: flex;
@@ -23,4 +26,22 @@
       line-height: normal;
     }
   }
+}
+@media screen and (min-width: 600px) {
+.footer {
+  margin-top: 150px;
+  &__logo-mobile {
+    display: none;
+  }
+  &__logo-computer {
+    display: block;
+    margin: auto;
+  }
+  &__info {
+    span {
+      font-size: 18px;
+      max-width: 394px;
+    }
+  }
+}
 }

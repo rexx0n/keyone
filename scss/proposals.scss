@@ -35,3 +35,46 @@
     }
   }
 }
+@media screen and (min-width: 600px) {
+  .proposals {
+    margin-top: 150px;
+    &__card {
+      padding: 157px 358px 157px 99px;
+      margin-top:85px;
+      background: url("imgs/bg-proposals.png");
+      border: none;
+      max-width: 1184px;
+      width: 100%;
+      button {
+        font-size: 24px;
+        font-weight: 600;
+        max-width:472px ;
+        margin: 38px 0 0;
+      }
+      h2 {
+        margin: 0;
+        max-width: 560px;
+        text-align: left;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 112.2%; /* 56.1px */
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+    img {
+      display: none;
+    }
+    h1 {
+      margin: auto;
+      max-width: 745px;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 106.7%; /* 53.35px */
+      text-transform: uppercase;
+      color: #000;
+    }
+  }
+}
